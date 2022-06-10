@@ -1,0 +1,13 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "Static files for Rai Siqueira repositories",
+  "scripts": {
+    "gen": "npx sponsorkit -w 800 --dir . && npx sponsorkit -w 1300 --name sponsors.wide --dir ."
+  },
+  "author": "Raí Siqueira <me@raisiqueira.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "sponsorkit": "^0.4.1"
+  }
+}
