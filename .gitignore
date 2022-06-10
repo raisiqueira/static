@@ -1,0 +1,5 @@
+!package.json
+*.json
+node_modules
+pnpm-lock.yaml
+.env
